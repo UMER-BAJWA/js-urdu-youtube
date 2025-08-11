@@ -9,7 +9,7 @@ let age =10
 let isLoggedIn= false
 let state=null
 
-// number=>2to power53
+// number=>2 to power 53
 // bigint
 // string
 // boolean=> true/false
@@ -18,5 +18,5 @@ let state=null
 // symbol=> for unique
 // object
 
-console.log(typeof null) //object
-console.log(typeof undefined)//undefined
+console.log(typeof null); //object
+console.log(typeof undefined);  //undefined
