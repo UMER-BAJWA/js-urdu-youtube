@@ -30,3 +30,22 @@ const myFunctoin = function() {
     console.log("Hello World")
 }
 console.log(typeof anotherId);
+
+// ++++++++++++++++++++++++
+//  Stack (Primitive), Heap(Non_Primitive)
+
+let myYoutubename = "hichandotcom"
+
+let anothername = "chaiaurcode"
+console.log(anothername);
+console.log(myYoutubename);
+
+
+let userOne = {
+    email: "user@google.com",
+    upi:"user@ybl"
+}
+let userTwo = userOne 
+userTwo.email = "yuio@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
